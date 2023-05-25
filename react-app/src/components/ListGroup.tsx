@@ -1,26 +1,16 @@
+import { Fragment } from "react";
 function ListGroup() {
   return (
-    <div className="list-group">
-      <a
-        href="#"
-        className="list-group-item list-group-item-action active"
-        aria-current="true"
-      >
-        The current link item
-      </a>
-      <a href="#" className="list-group-item list-group-item-action">
-        A second link item
-      </a>
-      <a href="#" className="list-group-item list-group-item-action">
-        A third link item
-      </a>
-      <a href="#" className="list-group-item list-group-item-action">
-        A fourth link item
-      </a>
-      <a className="list-group-item list-group-item-action disabled">
-        A disabled link item
-      </a>
-    </div>
+    <Fragment>
+      <h1>List</h1>
+      <ul className="list-group">
+        <li className="list-group-item">An item</li>
+        <li className="list-group-item">A second item</li>
+        <li className="list-group-item">A third item</li>
+        <li className="list-group-item">A fourth item</li>
+        <li className="list-group-item">And a fifth one</li>
+      </ul>
+    </Fragment>
   );
 }
 export default ListGroup;
