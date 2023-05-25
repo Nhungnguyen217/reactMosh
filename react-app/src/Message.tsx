@@ -1,6 +1,6 @@
 // In hoa chu dau cua ten function components
 function Message() {
-  const name = "Nhum";
+  const name = "";
   if (name)
     //JSX: Javascript XML
     return <h1>Hello {name}</h1>;
